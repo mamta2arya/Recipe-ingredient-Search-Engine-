@@ -1,0 +1,40 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.center{
+    text-align: center;
+}
+
+.pagination-page-info {
+  padding: .6em;
+  padding-left: 0;
+  width: 40em;
+  margin: .5em;
+  margin-left: 0;
+  font-size: 12px;
+}
+.pagination-page-info b {
+  color: black;
+  background: #6aa6ed;
+  padding-left: 2px;
+  padding: .1em .25em;
+  font-size: 150%;
+}
